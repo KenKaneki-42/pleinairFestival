@@ -11,6 +11,18 @@
   overflow: hidden;
 }
 
+.container-form{
+  display: flex;
+  flex-direction: column;
+  max-width: auto;
+  min-width: fit-content;
+}
+
+.input{
+  display: flex;
+  justify-content: space-between;
+}
+
 .wrapper {
   display: flex;
   justify-content: center;
