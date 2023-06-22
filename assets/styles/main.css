@@ -1,7 +1,3 @@
-
-/* Polices */
-
-
 .container {
   width: 100%;
   margin-right: auto;
@@ -9,27 +5,6 @@
   padding : 20px;
   max-width: 100%;
 }
-
-/* Small devices (tablets, 768px and up) */
-/* @media (min-width: 768px) {
-  .container {
-    max-width: 720px;
-  }
-} */
-
-/* Medium devices (desktops, 992px and up) */
-/* @media (min-width: 992px) {
-  .container {
-    max-width: 960px;
-  }
-} */
-
-/* Large devices (large desktops, 1200px and up) */
-/* @media (min-width: 1200px) {
-  .container {
-    max-width: 1140px;
-  }
-} */
 
 /* ------ */
 #pelliculeH {
@@ -263,9 +238,8 @@ p {
 .divider {
   width: 100%;
   height: 1px;
-  background-color: #000;
-  margin-top: 10px;
-  margin-bottom: 10px;
+  background-color: var(--off-white);
+  margin: 2em 0 2em 0;
 }
 
 /* Styles pour le conteneur principal */
@@ -447,7 +421,7 @@ p {
  /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {
   .container-actu img{
-    width: 150px;
+    width: 50%;
     height: auto;
   }
 }
@@ -455,9 +429,9 @@ p {
  /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
   .container-actu img{
-    width: 200px;
+    width: 50%;
     height: auto;
-    max-height: 150px;
+    /* max-height: 150px; */
   }
 }
 
