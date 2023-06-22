@@ -1,0 +1,25 @@
+nav {
+  background-color: var(--black);
+  padding: 1em;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 2em;
+}
+
+nav ul li a {
+  color: var(--pale-gold-dark);
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  /* color: #ddd; */
+  color: var(--pale-gold-light);
+}

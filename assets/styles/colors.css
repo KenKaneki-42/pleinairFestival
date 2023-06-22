@@ -1,0 +1,34 @@
+:root {
+  --blue-night: #061639;
+  --black: #000000;
+  --soft-green: #769956;
+  --rust: #B7410E;
+  --off-white: #FAF9F9;
+  --pale-gold: #FFD700;
+  --pale-gold-light: #fcee34;
+  --pale-gold-dark: #a99004;
+}
+
+.bg-blue-night {
+  background-color: #061639;
+}
+
+.bg-black {
+  background-color: #000000;
+}
+
+.text-pale-gold {
+  color: #FFD700;
+}
+
+.bg-soft-green {
+  background-color: #769956;
+}
+
+.bg-rust {
+  background-color: #B7410E;
+}
+
+.text-off-white {
+  color: #FAF9F9;
+}

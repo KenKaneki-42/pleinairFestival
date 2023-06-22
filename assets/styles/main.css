@@ -1,0 +1,505 @@
+
+/* Polices */
+
+
+.container {
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  padding : 20px;
+  max-width: 100%;
+}
+
+/* Small devices (tablets, 768px and up) */
+/* @media (min-width: 768px) {
+  .container {
+    max-width: 720px;
+  }
+} */
+
+/* Medium devices (desktops, 992px and up) */
+/* @media (min-width: 992px) {
+  .container {
+    max-width: 960px;
+  }
+} */
+
+/* Large devices (large desktops, 1200px and up) */
+/* @media (min-width: 1200px) {
+  .container {
+    max-width: 1140px;
+  }
+} */
+
+/* ------ */
+#pelliculeH {
+  overflow: hidden;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: auto;
+  position: relative;
+  /* z-index: 1; */
+}
+
+.wrapperV {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: auto;
+  position: relative;
+  z-index: 1;
+}
+
+.wrapperV p {
+  max-width: 400px;
+}
+
+.spec-film{
+  width: 50%;
+  height: 100%;
+  padding: 1em;
+  color: var(--off-white);
+}
+
+.container-actu{
+  margin-bottom: 2em;
+  justify-content: center;
+}
+
+.container-actu img{
+  width: 400px;
+  height: auto;
+}
+
+
+
+.actu-content{
+  padding: 0 1em 0 1em;
+  width: 100%;
+  color: var(--pale-gold);
+}
+
+
+.test{
+  margin-top: 100%;
+}
+.padding10{
+  padding-left: 15vw;
+}
+
+.parc-monceau {
+  position: relative;
+  /* height:100% */
+}
+
+.parc-monceau::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../images/portail-parc-monceau.webp");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  z-index: 1;
+}
+
+.d-flex-custom{
+  display: flex
+}
+
+/* edward aux mains d'argent */
+
+/* BREAPOINTS */
+ /* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+
+}
+
+
+
+.bgedward {
+  /* content: ""; */
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 55vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../images/bg-Edward-Aux-Mains.webp");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  z-index: 1;
+}
+
+.poster-la-haine {
+  background-image: url("../images/affiche-la-haine.png");
+}
+
+.poster-edward {
+  background-image: url("../images/posters/edward-aux-mains-d\'argent.jpeg");
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.posterfilm{
+  width: 160px;
+  height: 225px;
+  background-color: #eee;
+  bottom: 0px;
+  left: 0px;
+  transform: translateY(-50%);
+  margin-left: 2em;
+  }
+
+  .container-poster-catergory{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    padding : 0px;
+    min-height: 0px;
+    max-height: 0px;
+    z-index: 4;
+  }
+
+  .categories{
+    display: flex;
+    width: auto;
+    height: auto;
+  }
+
+  .category{
+    padding: 10px 20px;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    background-color: var(--pale-gold);
+    color: var(--black);
+    border: 2px solid #333333;
+    border-radius: 20px;
+    width: fit-content;
+    height: fit-content;
+    bottom: 0px;
+    right: 0px;
+    transform: translateY(-50%);
+    margin-right: 2em;
+  }
+
+  .margin2em{
+    margin-right: 2em;
+  }
+
+  .margincustom{
+    margin-right: 13em;
+  }
+  /* .translate-X-1{
+    transform: translateX(100%);
+  }
+
+  .translate-X-2{
+    transform: translateX(30%);
+  } */
+/* -- */
+
+h1 {
+  font-family: 'Metropolis', sans-serif;
+  color: var(--pale-gold);
+}
+
+body{
+  font-family: 'Metropolis', sans-serif;
+}
+.my-heading1 {
+  font-weight: bold;
+  /* font-size: 48px; */
+}
+
+p {
+  font-family: 'Metropolis', sans-serif;
+  text-align: justify;
+  /* max-width: 400px; */
+}
+
+
+/* Component*/
+.logo img{
+  width: 90px;
+  height: 90px;
+  /* background-image: url(../icons/video-camera.png); */
+  object-fit: cover;
+}
+
+
+.flip{
+  transform: scaleX(-1);
+}
+
+.divider {
+  width: 100%;
+  height: 1px;
+  background-color: #000;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+/* Styles pour le conteneur principal */
+.principal-container {
+  display: flex;
+  padding: 0;
+  margin: 0;
+  justify-content: space-between;
+  width: 100%;
+}
+
+/* #container-big-rectangle-H {
+  overflow-x: visible;
+  white-space: nowrap;
+} */
+
+/* Styles pour les colonnes */
+.column-p0-m0 {
+  /* flex: auto; */
+  padding: 0;
+  margin: 0;
+  max-width: 133px;
+}
+
+/* Styles spécifiques à la colonne centrale */
+.central-column {
+  /* background-color: lightgray; */
+  width: 100%;
+}
+
+
+.big-rectangle-h {
+  margin: 0px 3px 0px 3px;
+  border: solid black;
+  background-color: #FAF9F9;
+  border-radius: 10px;
+  min-width: 115px;
+  max-width: 115px;
+  min-height: 85px;
+  max-height: 85px;
+}
+
+.small-rectangle-h {
+  margin: 8px 2px 8px 2px;
+  border: solid black;
+  background-color: #FAF9F9;
+  border-radius: 2px;
+  max-width: 10px;
+  min-width: 10px;
+  min-height: 8px;
+  max-height: 8px;
+}
+
+.big-rectangle-v {
+  margin: 3px 0px 3px 0px;
+  border: solid black;
+  background-color: #FAF9F9;
+  border-radius: 10px;
+  min-width: 85px;
+  max-width: 85px;
+  min-height: 115px;
+  max-height: 115px;
+}
+.small-rectangle-v {
+  margin: 2px 8px 2px 8px;
+  border: solid black;
+  background-color: #FAF9F9;
+  border-radius: 2px;
+  max-width: 8px;
+  min-width: 8px;
+  min-height: 10px;
+  max-height: 10px;
+}
+
+/*test rectangle */
+/* .rectangle {
+  border: solid black;
+  background-color: #FAF9F9;
+}
+
+.big-rectangle-h, .big-rectangle-v {
+  border-radius: 10px;
+  border: solid black;
+  background-color: #FAF9F9;
+}
+
+.small-rectangle-h, .small-rectangle-v {
+  border-radius: 2px;
+  border: solid black;
+  background-color: #FAF9F9;
+} */
+
+/* Pour les écrans plus grands */
+/* @media (min-width: 1024px) {
+  .big-rectangle-h {
+    margin: 0px 3px 0px 3px;
+    width: 11.5vw;
+    height: 8.5vh;
+  }
+
+  .small-rectangle-h {
+    margin: 8px 2px 8px 2px;
+    width: 1vw;
+    height: 0.8vh;
+  }
+
+  .big-rectangle-v {
+    margin: 3px 0px 3px 0px;
+    width: 8.5vw;
+    height: 11.5vh;
+  }
+
+  .small-rectangle-v {
+    margin: 2px 8px 2px 8px;
+    width: 0.8vw;
+    height: 1vh;
+  }
+} */
+
+/* Pour les écrans plus petits */
+/* @media (max-width: 1023px) {
+  .big-rectangle-h {
+    margin: 0px 1.5vw 0px 1.5vw;
+    width: 23vw;
+    height: 17vh;
+  }
+
+  .small-rectangle-h {
+    margin: 4vh 1vw 4vh 1vw;
+    width: 2vw;
+    height: 1.6vh;
+  }
+
+  .big-rectangle-v {
+    margin: 1.5vh 0px 1.5vh 0px;
+    width: 17vw;
+    height: 23vh;
+  }
+
+  .small-rectangle-v {
+    margin: 1vh 4vw 1vh 4vw;
+    width: 1.6vw;
+    height: 2vh;
+  }
+} */
+
+
+
+/* Colors */
+
+
+.parc-monceau h2 {
+  z-index: 3;
+}
+
+
+/* test */
+.containerperso {
+  display: flex;
+}
+
+
+
+.col {
+  height: 100vh;
+}
+
+.col-fixed {
+  max-width: 120px;
+  background-color: #ccc;
+}
+
+.col-flex {
+  flex-grow: 1;
+  background-color: #eee;
+}
+
+/* BREAPOINTS */
+ /* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+  .container-actu img{
+    width: 150px;
+    height: auto;
+  }
+}
+
+ /* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  .container-actu img{
+    width: 200px;
+    height: auto;
+    max-height: 150px;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  .container-actu img{
+    width: 400px;
+    height: auto;
+    max-height: 300px;
+  }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+
+}
+
+
+@media (max-width: 1100px) {
+  .d-flex-custom {
+      flex-direction: column;
+  }
+  .spec-film{
+    width: 100%;
+  }
+  .p{
+    font-size: xx-small;
+  }
+  .posterfilm{
+    display: none;
+  }
+  .padding10{
+    padding: 1em;
+  }
+  .container-poster-catergory{
+    justify-content: center;
+  }
+  .categories{
+    width: 100%;
+    justify-content: center;
+  }
+  .category{
+    margin-right: 1em;
+  }
+}
