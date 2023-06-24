@@ -45,9 +45,66 @@
               <li><a href="./form-préinscription.html">Préinscription</a></li>
             </ul>
         </nav>
-        <!-- background film, poster and categories-->
-        <div class="wrapper" style="width: max-content;">
+        <!-- formulaire-->
+        <div class="wrapper parc-monceau-garden">
+          <div class="container-form">
+            <h3>Formulaire de préinscription</h3>
+            <form action="/submit" method="post">
+              <div class="input">
+                <label for="firstName">Prénom:</label>
+                <input type="text" id="firstName" name="firstName" required>
+              </div>
+              <div class="input">
+                <label for="lname">Nom:</label>
+                <input type="text" id="lname" name="lname" required>
+              </div>
+              <div class="input">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+              </div>
+              <div class="input">
+                <label for="nbParticipants">Nombre de participants:</label>
+                <select id="nbParticipants" name="nbParticipants" required>
+                  <option value="">Sélectionner...</option>
+                  <option value="1">1</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                  <option value="4">4</option>
+                  <option value="5">5</option>
+                  <option value="6">6</option>
+                  <option value="7">7</option>
+                  <option value="8">8</option>
+                  <option value="9">9</option>
+                  <option value="10">10</option>
+                </select>
+              </div>
+              <p>Jours souhaités :</p>
+              <div class="d-flex flex-column">
+                <div class="d-flex">
+                  <label for="5aug">5 Août</label>
+                  <input type="checkbox" id="5aug" name="date" value="5aug">
+                </div>
+                <div class="d-flex">
+                  <label for="6aug">6 Août</label>
+                  <input type="checkbox" id="6aug" name="date" value="6aug">
+                </div>
+                <div class="d-flex">
+                  <label for="7aug">7 Août</label>
+                  <input type="checkbox" id="7aug" name="date" value="7aug">
+                </div>
+                <div class="d-flex">
+                  <label for="8aug">8 Août</label>
+                  <input type="checkbox" id="8aug" name="date" value="8aug">
+                </div>
+                <div class="d-flex">
+                  <label for="acceptPolicy">J’accepte la politique de confidentialité</label>
+                  <input type="checkbox" id="acceptPolicy" name="acceptPolicy" required>
+                </div>
+              <input class="my-button" type="submit" value="Submit">
+              </div>
+            </form>
 
+          </div>
         </div>
 
       </div>
