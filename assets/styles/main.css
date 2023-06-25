@@ -162,40 +162,7 @@ label{
 
 
 
-.bgedward {
-  /* content: ""; */
-  position: relative;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 55vh;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../images/bg-Edward-Aux-Mains.webp");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center center;
-  z-index: 1;
-}
 
-.poster-la-haine {
-  background-image: url("../images/affiche-la-haine.png");
-}
-
-.poster-edward {
-  background-image: url("../images/posters/edward-aux-mains-d\'argent.jpeg");
-  background-position: center center;
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-
-.posterfilm{
-  width: 160px;
-  height: 225px;
-  background-color: #eee;
-  bottom: 0px;
-  left: 0px;
-  transform: translateY(-50%);
-  margin-left: 2em;
-  }
 
   .container-poster-catergory{
     display: flex;
