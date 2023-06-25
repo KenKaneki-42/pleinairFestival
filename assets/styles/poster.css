@@ -11,3 +11,27 @@
   min-height: 360px;
   object-fit: cover; /* Cette propriété redimensionne l'image pour remplir le conteneur tout en conservant son aspect ratio. */
 }
+
+.posterfilm{
+  width: 160px;
+  height: 225px;
+  background-color: #eee;
+  bottom: 0px;
+  left: 0px;
+  transform: translateY(-50%);
+  margin-left: 2em;
+  }
+
+.poster-la-haine {
+  background-image: url("../images/posters/la-haine.png");
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.poster-edward {
+  background-image: url("../images/posters/edward-aux-mains-d\'argent.jpeg");
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
