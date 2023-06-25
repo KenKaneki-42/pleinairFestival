@@ -35,3 +35,10 @@
   background-size: cover;
   background-repeat: no-repeat;
 }
+
+.poster-requieam-for-a-dream {
+  background-image: url("../images/posters/requiem-for-a-dream.jpeg");
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
