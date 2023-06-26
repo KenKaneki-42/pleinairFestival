@@ -1,7 +1,7 @@
 .poster {
   max-width: 240px;
   max-height: 380px;
-  margin-right: 15px;
+  margin-right: 1em;
 }
 
 .poster img {
@@ -31,6 +31,13 @@
 
 .poster-edward {
   background-image: url("../images/posters/edward-aux-mains-d\'argent.jpeg");
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.poster-requieam-for-a-dream {
+  background-image: url("../images/posters/requiem-for-a-dream.jpeg");
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;

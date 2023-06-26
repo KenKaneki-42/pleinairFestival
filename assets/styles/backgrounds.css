@@ -1,27 +1,27 @@
-.bgedward {
-  /* content: ""; */
+.bg-film{
   position: relative;
   top: 0;
   left: 0;
   width: 100%;
   height: 55vh;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../images/backgrounds/bg-Edward-Aux-Mains.webp");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
   z-index: 1;
 }
 
+.bg-edward {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../images/backgrounds/bg-Edward-Aux-Mains.webp");
+}
+
 .bg-la-haine {
-  /* content: ""; */
-  position: relative;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 55vh;
   background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../images/backgrounds/bg-la-haine.jpeg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center center;
-  z-index: 1;
+}
+
+.bg-requiem-for-a-dream {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../images/backgrounds/bg-requiem-for-a-dream.webp");
+}
+
+.bg-2001-odysee-de-l-espace {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../images/backgrounds/bg-2001-l\'odyssée-de-l\'espace.jpeg");
 }
