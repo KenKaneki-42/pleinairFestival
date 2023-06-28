@@ -6,6 +6,10 @@
   max-width: 100%;
 }
 
+.margin-bottom{
+  margin-bottom: 1em;
+}
+
 label{
   margin-right: 1em;
 }
@@ -437,6 +441,15 @@ p {
   .container-actu img{
     width: 50%;
     height: auto;
+  }
+}
+
+@media (max-width: 576px){
+  .flip{
+    display: none;
+  }
+  h1{
+    margin-left: 1em;
   }
 }
 

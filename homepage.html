@@ -61,25 +61,30 @@
           <!-- Petits rectangles bas pour la pellicule -->
           <div class="d-flex" id="container-small-rectangle-bot-H"></div>
         </div>
+
           <section class="d-flex flex-column align-items-center parc-monceau text-pale-gold py-5">
             <h2>Présentation</h2>
             <div class="container">
               <div class="wrapperV">
                 <p>Organisé par l'enthousiaste Jennifer Edwards, le Festival des Films de Plein Air est un événement cinématographique unique en son genre qui se déroule chaque été à Paris. Nous sommes ravis d'annoncer que nous avons obtenu l'autorisation de projeter des films en plein air au <strong>parc Monceau, chaque soir du 5 au 8 août, de 18 heures à minuit.</strong></p>
                 <p>Le Festival des Films de Plein Air s'engage à faire découvrir des films d'auteur au grand public. Chaque soir, sous les étoiles, le parc Monceau se transformera en un cinéma en plein air, offrant aux cinéphiles une expérience unique de visionnage de films dans un cadre magnifique.</p>
-                <div class="my-button">SE PREINSCRIRE</div>
+                <a href="/Pages/form-préinscription.html"><div class="my-button">SE PREINSCRIRE</div></a>
               </div>
             </div>
           </section>
 
-          <div class="container bg-blue-night">
-            <section class="wrapperV">
-
+          <section class=" bg-blue-night d-flex flex-column align-items-center text-pale-gold py-4">
+            <h2 class="margin-bottom">PROGRAMMATION</h2>
+            <div class="wrapperV">
               <div class="tabs">
-                <button class="tab" >5 août</button>
-                <button class="tab" >6 août</button>
-                <button class="tab" >7 août</button>
-                <button class="tab" >8 août</button>
+                <div class="group">
+                  <button class="tab" >5 août</button>
+                  <button class="tab" >6 août</button>
+                </div>
+                <div class="group">
+                  <button class="tab" >7 août</button>
+                  <button class="tab" >8 août</button>
+                </div>
               </div>
 
               <div class="films">
@@ -136,8 +141,30 @@
                   </a>
                 </div>
               </div>
-            </section>
-        </div>
+            </div>
+          </section>
+        <footer class="footer">
+          <div class="container">
+              <div class="row">
+                  <div class="col-md-6">
+                      <h5>Plain'air Films Festival de Cinéma</h5>
+                      <p>Ce Festival de Cinéma Éclectique est une célébration annuelle du 7ème Art, visant à promouvoir et à apprécier la diversité des films du monde entier. Rejoignez-nous pour vivre une expérience cinématographique inoubliable.</p>
+                  </div>
+                  <div class="col-md-6">
+                      <h5>Contactez-nous</h5>
+                      <p>123 Rue de Cinéma, 75000 Paris, France</p>
+                      <p>Email: contact@festivaldecinemaeclectique.com</p>
+                      <p>Tél: +33 1 23 45 67 89</p>
+                  </div>
+              </div>
+              <div class="row">
+                  <div class="col-md-12">
+                      <p class="copyrights">© 2023 Festival de Cinéma Éclectique. Tous droits réservés.</p>
+                  </div>
+              </div>
+          </div>
+      </footer>
+
       </div>
 
       <div class="column-p0-m0">
@@ -153,66 +180,6 @@
       </div>
     </div>
 
-    <!-- script changeTab -->
-    <!-- <script>
-      // Récupérez tous les éléments de contenu des onglets
-  var tabs = document.getElementsByClassName('tab-content');
-  var tabButtons = document.getElementsByClassName('tab');
-
-  function changeTab(index) {
-
-    // Masquer tous les contenus d'onglets et enlever la classe 'tab-active' de tous les onglets
-    for (var i = 0; i < tabs.length; i++) {
-      tabs[i].style.display = 'none';
-      tabButtons[i].classList.remove('tab-active');
-    }
-    // Afficher le contenu de l'onglet sélectionné et ajouter la classe 'tab-active' à l'onglet actif
-    tabs[index].style.display = 'flex';
-    tabButtons[index].classList.add('tab-active');
-  }
-
-  // Attacher la fonction à chaque onglet
-  for (var i = 0; i < tabButtons.length; i++) {
-    (function(i) {  // Créer une nouvelle portée pour capturer correctement i
-      tabButtons[i].addEventListener('click', function() {
-        changeTab(i);
-      });
-    })(i);
-  }
-
-  // Appeler la fonction changeTab au chargement de la page pour le premier onglet
-  changeTab(0);
-    </script> -->
-
-    <!-- script CreateRectangle -->
-    <!-- <script>
-      function createRectangles(containerId, rectangleWidth, rectangleClass, adjustment = 0, horizontal = false) {
-          var container = document.getElementById(containerId);
-          var largeurEcran = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;
-
-          if(horizontal){
-              largeurEcran = Math.floor(largeurEcran - 2 * 133);
-          }
-
-          var nombreRectangles = Math.floor(largeurEcran / rectangleWidth) + adjustment;
-
-          for (var i = 0; i < nombreRectangles; i++) {
-              var rectangle = document.createElement("div");
-              rectangle.classList.add(rectangleClass);
-              container.appendChild(rectangle);
-          }
-      }
-
-      createRectangles("container1-small-rectangle-top-V", 14, "small-rectangle-v");
-      createRectangles("container1-big-rectangle-V", 121, "big-rectangle-v");
-      createRectangles("container1-small-rectangle-bot-V", 14, "small-rectangle-v");
-      createRectangles("container2-small-rectangle-top-V", 14, "small-rectangle-v");
-      createRectangles("container2-big-rectangle-V", 121, "big-rectangle-v");
-      createRectangles("container2-small-rectangle-bot-V", 14, "small-rectangle-v");
-      createRectangles("container-small-rectangle-top-H", 14, "small-rectangle-h", -5, true);
-      createRectangles("container-big-rectangle-H", 121, "big-rectangle-h", 0, true);
-      createRectangles("container-small-rectangle-bot-H", 14, "small-rectangle-h", -5, true);
-    </script> -->
 
   </body>
 

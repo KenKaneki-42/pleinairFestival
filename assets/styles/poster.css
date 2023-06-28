@@ -1,7 +1,13 @@
 .poster {
   max-width: 240px;
   max-height: 380px;
-  margin-right: 1em;
+  margin: 0 1em 0 1em;
+}
+
+@media (max-width: 576px){
+  .poster{
+    margin: 1em 0 1em 0;
+  }
 }
 
 .poster img {
