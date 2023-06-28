@@ -1,5 +1,5 @@
 export function generateFilmsContentTab(){
-  
+
   const films = [
     { name: 'film1', posterPath: 'assets/images/posters/edward-aux-mains-d\'argent.jpeg', day: '5 août' },
     { name: 'film2', posterPath: 'assets/images/posters/la-haine.png', day: '5 août' },

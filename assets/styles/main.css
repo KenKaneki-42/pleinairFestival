@@ -444,6 +444,15 @@ p {
   }
 }
 
+@media (max-width: 576px){
+  .flip{
+    display: none;
+  }
+  h1{
+    margin-left: 1em;
+  }
+}
+
  /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
   .container-actu img{
