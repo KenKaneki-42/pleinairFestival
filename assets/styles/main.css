@@ -14,8 +14,12 @@ label{
   margin-right: 1em;
 }
 /* ------ */
-#pelliculeH {
-  overflow: hidden;
+#pelliculeV1, #pelliculeV2 {
+  height: 100%;
+}
+
+.overflow{
+
 }
 
 .container-form{
