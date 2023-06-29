@@ -7,7 +7,8 @@
     <link href="../../node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
     <script src="../../node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="../../assets/styles/index.css">
-    <script src="../../assets/scripts/index.js" type="module"> </script>
+    <script src="../../scripts/index.js" type="module"> </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.7.8/lottie.min.js"></script>
   </head>
   <body>
     <div class="principal-container">
@@ -21,7 +22,6 @@
         <div class="d-flex flex-column" id="container1-small-rectangle-bot-V"></div>
         </div>
       </div>
-
       <div class="column central-column">
         <!-- bandeau -->
         <div class="container bg-blue-night">
@@ -53,7 +53,6 @@
               <div class="category ">Drame</div>
             </div>
           </div>
-
         <!-- section informations du film -->
           <div class="container bg-blue-night ">
             <div class="d-flex-custom padding10 ">
@@ -65,7 +64,8 @@
                 <p><strong>Acteurs principaux</strong>: Vincent Cassel, Hubert Koundé, Saïd Taghmaoui</p>
                 <div class="video-container">
                   <iframe width="100%" height="315" src="https://www.youtube.com/embed/FKwcXt3JIaU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-              </div>
+                </div>
+              <div id="lottie-animation"></div>
               </div>
               <div class="spec-film">
                 <h3>SYNOPSIS</h3>
@@ -83,7 +83,6 @@
           </div>
           <footer-component></footer-component>
       </div>
-
       <div class="column-p0-m0">
         <div class="bg-black d-flex" id="pelliculeV2">
           <!-- Petits rectangles haut pour la pellicule -->
@@ -95,41 +94,5 @@
         </div>
       </div>
     </div>
-    <!-- <script>
-      function createRectangles(containerId, rectangleWidth, rectangleClass, adjustment = 0, horizontal = false) {
-          var container = document.getElementById(containerId);
-          var largeurEcran = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;
-
-          if(horizontal){
-              largeurEcran = Math.floor(largeurEcran - 2 * 133);
-          }
-
-          // var nombreRectangles = Math.floor(largeurEcran / rectangleWidth) + adjustment;
-          // var nombreRectangles = Math.floor();
-          var _docHeight = (document.height !== undefined) ? document.height : document.body.offsetHeight;
-          var _docWidth = (document.width !== undefined) ? document.width : document.body.offsetWidth;
-
-          var nombreRectangles = Math.floor(_docHeight / rectangleWidth) + adjustment;
-          console.log('nb rectangle', nombreRectangles);
-
-          for (var i = 0; i < nombreRectangles; i++) {
-              var rectangle = document.createElement("div");
-              rectangle.classList.add(rectangleClass);
-              container.appendChild(rectangle);
-          }
-      }
-
-      createRectangles("container1-big-rectangle-V", 121, "big-rectangle-v",3 );
-      createRectangles("container1-small-rectangle-top-V", 14, "small-rectangle-v");
-      createRectangles("container1-small-rectangle-bot-V", 14, "small-rectangle-v");
-
-      createRectangles("container2-big-rectangle-V", 121, "big-rectangle-v");
-      createRectangles("container2-small-rectangle-top-V", 14, "small-rectangle-v");
-      createRectangles("container2-small-rectangle-bot-V", 14, "small-rectangle-v");
-
-      // createRectangles("container-small-rectangle-top-H", 14, "small-rectangle-h", -5, true);
-      // createRectangles("container-big-rectangle-H", 121, "big-rectangle-h", 0, true);
-      // createRectangles("container-small-rectangle-bot-H", 14, "small-rectangle-h", -5, true);
-    </script> -->
   </body>
 </html>

@@ -2,7 +2,7 @@ export class FooterComponent extends HTMLElement {
   connectedCallback() {
     this.innerHTML = `
       <footer class="footer">
-      <div class="container">
+        <div class="container">
           <div class="row">
               <div class="col-md-6">
                   <h5>Plain'air Films Festival de Cinéma</h5>
@@ -20,7 +20,7 @@ export class FooterComponent extends HTMLElement {
                   <p class="copyrights">© 2023 Festival de Cinéma Éclectique. Tous droits réservés.</p>
               </div>
           </div>
-      </div>
+        </div>
       </footer>
     `;
   }

@@ -18,8 +18,8 @@ label{
   height: 100%;
 }
 
-.overflow{
-
+.overflowh{
+  overflow: hidden;
 }
 
 .container-form{
@@ -284,6 +284,7 @@ p {
   padding: 0;
   margin: 0;
   max-width: 133px;
+  min-width: 133px ;
 }
 
 /* Styles spécifiques à la colonne centrale */
@@ -316,7 +317,8 @@ p {
 }
 
 .big-rectangle-v {
-  margin: 3px 0px 3px 0px;
+  /* margin: 3px 0px 3px 0px; */
+  margin: 0.4em 0 0.4em 0;
   border: solid black;
   background-color: #FAF9F9;
   border-radius: 10px;
@@ -411,7 +413,9 @@ p {
 
 
 /* Colors */
-
+#container1-big-rectangle-V, #container2-big-rectangle-V{
+  justify-content: center;
+}
 
 .parc-monceau h2 {
   z-index: 3;
