@@ -6,6 +6,11 @@
   max-width: 100%;
 }
 
+.myIframe {
+  border: none;
+  width: 100%;
+}
+
 .margin-bottom{
   margin-bottom: 1em;
 }
