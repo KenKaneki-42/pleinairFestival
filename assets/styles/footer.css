@@ -1,3 +1,5 @@
 footer .container{
   padding: 2em 2em 0 2em;
+  background-color: var(--blue-night);
+  color: var(--pale-gold);
 }
