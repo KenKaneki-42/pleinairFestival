@@ -9,24 +9,24 @@ if(filename == "homepage.html") {
 }
 
 customElements.define('footer-component', FooterComponent);
-// window.onload = function() {
-//   createRectangles("container1-big-rectangle-V", 121, "big-rectangle-v");
-//   createRectangles("container1-small-rectangle-top-V", 14, "small-rectangle-v");
-//   createRectangles("container1-small-rectangle-bot-V", 14, "small-rectangle-v");
 
-//   createRectangles("container2-big-rectangle-V", 121, "big-rectangle-v");
-//   createRectangles("container2-small-rectangle-top-V", 14, "small-rectangle-v");
-//   createRectangles("container2-small-rectangle-bot-V", 14, "small-rectangle-v");
-
-// };
+// VERSION PLUS PERFORMANTE MAIS MANQUE + DE RECTANGLES QUE SUR LE WINDOW.ONLOAD
 document.addEventListener("DOMContentLoaded", function() {
 
   const docHeight = document.body.clientHeight;
-  createRectangles("container1-big-rectangle-V", 121, "big-rectangle-v", docHeight);
-  createRectangles("container1-small-rectangle-top-V", 14, "small-rectangle-v", docHeight);
-  createRectangles("container1-small-rectangle-bot-V", 14, "small-rectangle-v", docHeight);
+  console.log(docHeight);
+  createRectangles("container1-big-rectangle-V", 121, "big-rectangle-v", docHeight, -1);
+  createRectangles("container2-big-rectangle-V", 121, "big-rectangle-v", docHeight, -1);
 
-  createRectangles("container2-big-rectangle-V", 121, "big-rectangle-v", docHeight);
-  createRectangles("container2-small-rectangle-top-V", 14, "small-rectangle-v", docHeight);
-  createRectangles("container2-small-rectangle-bot-V", 14, "small-rectangle-v", docHeight);
+  createRectangles("container1-small-rectangle-top-V", 14, "small-rectangle-v", docHeight, 4);
+  createRectangles("container1-small-rectangle-bot-V", 14, "small-rectangle-v", docHeight, 4);
+  createRectangles("container2-small-rectangle-top-V", 14, "small-rectangle-v", docHeight, 4);
+  createRectangles("container2-small-rectangle-bot-V", 14, "small-rectangle-v", docHeight, 4);
+  // createRectangles("container1-big-rectangle-V", 121, "big-rectangle-v", docHeight, 1);
+  // createRectangles("container1-small-rectangle-top-V", 14, "small-rectangle-v", docHeight, 7);
+  // createRectangles("container1-small-rectangle-bot-V", 14, "small-rectangle-v", docHeight, 7);
+
+  // createRectangles("container2-big-rectangle-V", 121, "big-rectangle-v", docHeight, 1);
+  // createRectangles("container2-small-rectangle-top-V", 14, "small-rectangle-v", docHeight, 7);
+  // createRectangles("container2-small-rectangle-bot-V", 14, "small-rectangle-v", docHeight, 7);
 });

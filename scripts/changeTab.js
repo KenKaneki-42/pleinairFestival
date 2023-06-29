@@ -1,7 +1,8 @@
 
 export function toggleTab() {
-  // Récupérez tous les éléments de contenu des onglets
+  // Get all elements's content for each tabs
   var tabs = document.getElementsByClassName('tab-content');
+  console.log(tabs);
   var tabButtons = document.getElementsByClassName('tab');
 
   function changeTab(index) {
