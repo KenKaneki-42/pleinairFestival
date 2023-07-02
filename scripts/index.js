@@ -13,6 +13,7 @@ if (window.location.pathname.includes("/Pages/films/")) {
   loadLottie();
 }
 
+// to define the footer component
 customElements.define('footer-component', FooterComponent);
 
 // VERSION PLUS PERFORMANTE MAIS MANQUE + DE RECTANGLES QUE SUR LE WINDOW.ONLOAD
@@ -27,4 +28,9 @@ document.addEventListener("DOMContentLoaded", function() {
   createRectangles("container2-small-rectangle-top-V", 14, "small-rectangle-v", docHeight, 4);
   createRectangles("container2-small-rectangle-bot-V", 14, "small-rectangle-v", docHeight, 4);
 
+});
+
+// to listen
+document.querySelector('.burger').addEventListener('click', function () {
+  document.querySelector('.menu').classList.toggle('show');
 });
