@@ -20,6 +20,68 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-  /* color: #ddd; */
   color: var(--pale-gold-light);
+}
+
+
+.burger {
+  display: none;
+  cursor: pointer;
+  margin-left: 1em;
+}
+
+.burger span {
+  display: block;
+  width: 25px;
+  height: 2px;
+  margin: 5px;
+  background: #333;
+}
+
+.menu {
+  display: none;
+}
+
+.show {
+  display: flex;
+  flex-direction: column;
+}
+
+
+@media (min-width: 371px) {
+  .burger {
+    display: none;
+  }
+
+  .menu {
+    display: block;
+  }
+
+  .show {
+    display: flex;
+    flex-direction: column;
+  }
+
+}
+
+@media (max-width: 370px) {
+  .burger {
+    display: block;
+  }
+
+  nav .wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .show{
+    position: absolute;
+    left: 6.5em;
+    background-color: var(--blue-night);
+    border: 1px solid var(--pale-gold-dark);
+    border-radius: 10px;
+    z-index: 2;
+  }
+
 }

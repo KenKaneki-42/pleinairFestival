@@ -5,6 +5,6 @@ export function loadLottie() {
     renderer: 'svg',
     loop: true,
     autoplay: true,
-    path: '../../assets/lotties/panda-eats-popcorn.json' // Set your path to the animation JSON
+    path: '../../assets/lotties/panda-eats-popcorn.json'
   });
 }
