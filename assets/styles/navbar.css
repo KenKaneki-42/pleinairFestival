@@ -20,7 +20,6 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-  /* color: #ddd; */
   color: var(--pale-gold-light);
 }
 
@@ -28,6 +27,7 @@ nav ul li a:hover {
 .burger {
   display: none;
   cursor: pointer;
+  margin-left: 1em;
 }
 
 .burger span {
@@ -43,7 +43,6 @@ nav ul li a:hover {
 }
 
 .show {
-  /* display: block !important; */
   display: flex;
   flex-direction: column;
 }
@@ -56,15 +55,12 @@ nav ul li a:hover {
 
   .menu {
     display: block;
-
   }
 
   .show {
-    /* display: block !important; */
     display: flex;
     flex-direction: column;
   }
-
 
 }
 
@@ -76,10 +72,16 @@ nav ul li a:hover {
   nav .wrapper {
     display: flex;
     flex-direction: column;
+    align-items: flex-start;
   }
 
-  ul{
-    background-color: var(--pale-gold-dark);
+  .show{
+    position: absolute;
+    left: 6.5em;
+    background-color: var(--blue-night);
+    border: 1px solid var(--pale-gold-dark);
+    border-radius: 10px;
+    z-index: 2;
   }
 
 }
