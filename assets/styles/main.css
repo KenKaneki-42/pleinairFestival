@@ -18,7 +18,7 @@
 label{
   margin-right: 1em;
 }
-/* ------ */
+
 #pelliculeV1, #pelliculeV2 {
   height: 100%;
 }
@@ -31,7 +31,7 @@ label{
   display: flex;
   flex-direction: column;
   max-width: auto;
-  min-width: fit-content;
+  min-width: auto;
   padding: 1em;
   border-radius: 2em;
   margin: 3em 0;
@@ -42,7 +42,6 @@ label{
 .container-form h3{
   margin-bottom: 1em;
 }
-
 
 .input{
   display: flex;
@@ -57,7 +56,6 @@ label{
   align-items: center;
   width: auto;
   position: relative;
-  /* z-index: 1; */
 }
 
 .wrapperV {
@@ -92,14 +90,11 @@ label{
   height: auto;
 }
 
-
-
 .actu-content{
   padding: 0 1em 0 1em;
   width: 100%;
   color: var(--pale-gold);
 }
-
 
 .test{
   margin-top: 100%;
@@ -129,7 +124,6 @@ label{
 
 .parc-monceau-garden {
   position: relative;
-  /* height:100% */
 }
 
 .parc-monceau-garden::before {
@@ -150,84 +144,49 @@ label{
   display: flex
 }
 
-/* edward aux mains d'argent */
-
-/* BREAPOINTS */
- /* Small devices (landscape phones, 576px and up) */
-@media (min-width: 576px) {
-
+.container-poster-catergory{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  padding : 0px;
+  min-height: 0px;
+  max-height: 0px;
+  z-index: 4;
 }
 
-/* Medium devices (tablets, 768px and up) */
-@media (min-width: 768px) {
-
+.categories{
+  display: flex;
+  width: auto;
+  height: auto;
 }
 
-/* Large devices (desktops, 992px and up) */
-@media (min-width: 992px) {
-
+.category{
+  padding: 10px 20px;
+  font-size: 14px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  background-color: var(--pale-gold);
+  color: var(--black);
+  border: 2px solid #333333;
+  border-radius: 20px;
+  width: fit-content;
+  height: fit-content;
+  bottom: 0px;
+  right: 0px;
+  transform: translateY(-50%);
+  margin-right: 2em;
 }
 
-/* Extra large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) {
-
+.margin2em{
+  margin-right: 2em;
 }
 
-
-
-
-
-  .container-poster-catergory{
-    display: flex;
-    justify-content: space-between;
-    width: 100%;
-    margin-right: auto;
-    margin-left: auto;
-    padding : 0px;
-    min-height: 0px;
-    max-height: 0px;
-    z-index: 4;
-  }
-
-  .categories{
-    display: flex;
-    width: auto;
-    height: auto;
-  }
-
-  .category{
-    padding: 10px 20px;
-    font-size: 14px;
-    font-weight: bold;
-    text-align: center;
-    text-decoration: none;
-    background-color: var(--pale-gold);
-    color: var(--black);
-    border: 2px solid #333333;
-    border-radius: 20px;
-    width: fit-content;
-    height: fit-content;
-    bottom: 0px;
-    right: 0px;
-    transform: translateY(-50%);
-    margin-right: 2em;
-  }
-
-  .margin2em{
-    margin-right: 2em;
-  }
-
-  .margincustom{
-    margin-right: 13em;
-  }
-  /* .translate-X-1{
-    transform: translateX(100%);
-  }
-
-  .translate-X-2{
-    transform: translateX(30%);
-  } */
-/* -- */
+.margincustom{
+  margin-right: 13em;
+}
 
 h1 {
   font-family: 'Metropolis', sans-serif;
@@ -239,24 +198,18 @@ body{
 }
 .my-heading1 {
   font-weight: bold;
-  /* font-size: 48px; */
 }
 
 p {
   font-family: 'Metropolis', sans-serif;
   text-align: justify;
-  /* max-width: 400px; */
 }
 
-
-/* Component*/
 .logo img{
   width: 90px;
   height: 90px;
-  /* background-image: url(../icons/video-camera.png); */
   object-fit: cover;
 }
-
 
 .flip{
   transform: scaleX(-1);
@@ -269,7 +222,6 @@ p {
   margin: 2em 0 2em 0;
 }
 
-/* Styles pour le conteneur principal */
 .principal-container {
   display: flex;
   padding: 0;
@@ -278,24 +230,19 @@ p {
   width: 100%;
 }
 
-/* #container-big-rectangle-H {
-  overflow-x: visible;
-  white-space: nowrap;
-} */
-
-/* Styles pour les colonnes */
 .column-p0-m0 {
-  /* flex: auto; */
   padding: 0;
   margin: 0;
   max-width: 133px;
   min-width: 133px ;
 }
 
-/* Styles spécifiques à la colonne centrale */
 .central-column {
-  /* background-color: lightgray; */
   width: 100%;
+}
+
+.col-md-6 p {
+  word-break: break-word;
 }
 
 
@@ -322,7 +269,6 @@ p {
 }
 
 .big-rectangle-v {
-  /* margin: 3px 0px 3px 0px; */
   margin: 0.4em 0 0.4em 0;
   border: solid black;
   background-color: #FAF9F9;
@@ -343,10 +289,6 @@ p {
   max-height: 10px;
 }
 
-
-
-
-/* Colors */
 #container1-big-rectangle-V, #container2-big-rectangle-V{
   justify-content: center;
 }
@@ -354,14 +296,6 @@ p {
 .parc-monceau h2 {
   z-index: 3;
 }
-
-
-/* test */
-.containerperso {
-  display: flex;
-}
-
-
 
 .col {
   height: 100vh;
@@ -378,7 +312,6 @@ p {
 }
 
 /* BREAPOINTS */
- /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {
   .container-actu img{
     width: 50%;
@@ -395,29 +328,20 @@ p {
   }
 }
 
- /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
   .container-actu img{
     width: 50%;
     height: auto;
-    /* max-height: 150px; */
   }
 }
 
-/* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
-  .container-actu{
-    /* flex-direction: column; */
-  }
-
   .container-actu img{
     width: 400px;
     height: auto;
     max-height: 300px;
   }
-
 }
-
 
 @media (max-width: 1200px) {
   .container-actu{
@@ -436,12 +360,6 @@ p {
     flex-direction: column-reverse;
   }
 }
-
-/* Extra large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) {
-
-}
-
 
 @media (max-width: 1100px) {
   .d-flex-custom {
