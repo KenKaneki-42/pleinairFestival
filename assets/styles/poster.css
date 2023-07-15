@@ -15,7 +15,7 @@
   height: 100%;
   min-width: 240px;
   min-height: 360px;
-  object-fit: cover; /* Cette propriété redimensionne l'image pour remplir le conteneur tout en conservant son aspect ratio. */
+  object-fit: cover;
 }
 
 .posterfilm{

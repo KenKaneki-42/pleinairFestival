@@ -1,7 +1,6 @@
 :root {
   --blue-night: #061639;
   --blue-night-transparent: rgba(6, 22, 57, 0.7);
-
   --black: #000000;
   --soft-green: #769956;
   --rust: #B7410E;
@@ -9,7 +8,6 @@
   --pale-gold: #FFD700;
   --pale-gold-light: #fcee34;
   --pale-gold-dark: #a99004;
-
 }
 
 .bg-blue-night {
